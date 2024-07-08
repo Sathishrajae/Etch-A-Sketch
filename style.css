@@ -1,0 +1,37 @@
+body{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#container {
+     width: 500px;
+     height: 400px;
+     display:grid;
+     flex-direction: column;
+     border: 3px black solid;
+     margin: auto;
+     margin-top: 10px;
+}
+.row{
+    flex-grow: 1;;
+    display: flex;
+}
+.square {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+.colored{
+    background-color:blue; 
+    color: aqua;
+}
+button{
+    background-color:brown;
+    color:chartreuse;
+    width: 100px;
+    
+}
+h1{
+    color:indigo;
+    border: 10px black;
+}
